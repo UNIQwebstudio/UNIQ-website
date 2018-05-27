@@ -1,0 +1,796 @@
+/*
+==================================== Large devices ===========================================
+*/
+
+@media screen and (min-width: $desktopmin) {
+
+  // Home page
+
+
+
+  // Sidebar
+
+  .side-inner-mobile {
+    display: none;
+  }
+
+  // Projects page
+
+  .mobile-projects-desc {
+    display: none;
+  }
+
+  // About page
+
+  .description-mobile {
+    display: none;
+  }
+
+  // Price page
+
+  .price-wrap {
+    .col-1 {
+      padding-left: 150px !important;
+    }
+  }
+}
+
+/*
+===================================== Medium Devices =========================================
+*/
+
+@media only screen and (min-width: 737px) and (max-width:$desktopmax) {
+
+  // Home page
+
+  .home-wrap {
+
+    .home {
+      h1 {
+        font-size: 8vw!important;
+        letter-spacing: 2px;
+        margin-bottom: 1vw;
+      }
+  
+      h2 {
+        font-family: 'Roboto-Light';
+        font-size: 3vw!important;
+        letter-spacing: 1px;
+      }
+    }
+
+    .arr-down {
+      width: 3vw;
+      height: 3vw;
+    }
+  }
+
+  // Sidebar
+
+  .side {
+    display: none !important;
+  }
+
+  .side-inner-mobile {
+    display: flex;
+  }
+
+  // Projects page
+
+  .projects-wrap {
+    padding: 25px 50px;
+    height: auto;
+
+    .row-1 {
+      flex-wrap: wrap;
+
+      .project {
+        margin: 1.5vh;
+        border-radius: 1vh;
+      }
+
+      .p1 {
+        width: 100%;
+        transform: translateX(500%);
+
+        &:hover {
+          width: 100%;
+        }
+      }
+
+      .p2 {
+        width: 100%;
+        transform: translateX(500%);
+
+        &::after {
+          display: none;
+        }
+
+        &::before {
+          display: none;
+        }
+
+        &:hover {
+          width: 100%;
+        }
+      }
+    }
+
+    .row-2 {
+      flex-wrap: wrap;
+
+      .project {
+        margin: 1.5vh;
+        border-radius: 1vh;
+      }
+
+      .p3 {
+        width: 100%;
+        transform: translateX(500%);
+
+        &::after {
+          display: none;
+        }
+
+        &:hover {
+          width: 100%;
+        }
+      }
+
+      .p4 {
+        width: 100%;
+        transform: translateX(500%);
+
+        &:hover {
+          width: 100%;
+        }
+      }
+
+      .p5 {
+        width: 100%;
+        transform: translateX(500%);
+
+        &:hover {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // About page
+
+  .about-wrap {
+    background-color: #222338;
+    padding: 25px 62px;
+
+    &__f-block {
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+
+    &__s-block {
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+
+    &__c-companies {
+      border-radius: 2vh;
+      width: 100%;
+      padding: 55px 45px;
+    }
+
+    &__company {
+      flex-basis: 48%;
+      height: 100px;
+      border-radius: 1vh;
+
+      &--mb_1 {
+        margin-bottom: 0;
+
+        &-mobile {
+          margin-bottom: 2vw;
+        }
+      }
+    }
+
+    &__t-block {
+      padding: 0;
+    }
+
+    &__c-team {
+      padding-left: 0;
+    }
+
+    &__team-title {
+      margin-bottom: 6vw;
+    }
+
+    &__img {
+      width: 9vw;
+      height: 9vw;
+    }
+
+    &__c-designers {
+      border-radius: 1vh;
+      flex-basis: 24%;
+      padding: 30px 0;
+      background-color: #1D1E2E;
+      border-radius: 10px;
+      position: relative;
+      
+      &::before {
+        position: absolute;
+        top: 0;
+        left: 27%;
+        content: "Designers";
+        font-family: "Roboto-Light", sans-serif;
+        font-size: 2.5vw;
+        transform: translateY(-140%) translateX(-50%);
+      }
+    }
+
+    &__designer-name {
+      font-size: 1.1vw;
+    }
+
+    &__designer-position {
+      font-size: 1.2vw;
+    }
+
+    &__c-developers {
+      border-radius: 1vh;
+      position: relative;
+      &::before {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        content: "Developers";
+        font-family: "Roboto-Light", sans-serif;
+        font-size: 2.5vw;
+        transform: translateY(-140%) translateX(-50%);
+      }
+    }
+
+    &__developer-name {
+      font-size: 1.1vw;
+    }
+
+    &__developer-position {
+      font-size: 1.2vw;
+    }
+    
+    &__c-managment {
+      border-radius: 1vh;
+      flex-basis: 65%;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        content: "Managment";
+        font-family: "Roboto-Light", sans-serif;
+        font-size: 2.5vw;
+        transform: translateY(-50%) translateX(80%);
+      }
+    }
+
+    &__managment-name {
+      font-size: 1.1vw;
+    }
+
+    &__management-position {
+      font-size: 1.2vw;
+    }
+
+    &__info-row_2 {
+      display: none;
+    }
+
+    &__info-row_1 {
+      display: none;
+    }
+  }
+
+  .description-mobile {
+    display: none;
+  }
+
+  // Price page
+
+  .price-wrap {
+    padding: 0 62px;
+
+    .col-1 {
+      padding-left: 0;
+
+      .placeholder {
+        border-radius: 1vh;
+      }
+    }
+
+    .list-item {
+      .item {
+        font-size: 1.35vw!important;
+      }
+    }
+
+    .service {
+      border-radius: 1vh;
+    }
+  }
+
+  // Contact page
+
+  .contact-wrap {
+    padding: 0 62px;
+    padding-bottom: 3vh;
+
+    .col-1 {
+      padding-left: 0;
+
+      .social-wrap {
+        border-radius: 1vh;
+
+        .social-item {
+          border-radius: 1vh;
+        }
+      }
+
+      .mp-wrap {
+        border-radius: 1vh;
+
+        .mp-item {
+          border-radius: 1vh;
+        }
+      }
+    }
+
+    .col-2 {
+      .contact-form {
+        border-radius: 1vh;
+        padding-bottom: 2vh;
+
+        input {
+          border-radius: 1vh;
+        }
+
+        button {
+          border-radius: 1vh;
+        }
+
+        textarea {
+          border-radius: 1vh;
+        }
+      }
+    }
+  }
+}
+
+/*
+================================= The Smallest Devices ================================
+*/
+
+@media (max-width: 736px) {
+
+  // Home page
+
+  .home-wrap {
+
+    .home {
+      h1 {
+        font-size: 12vw!important;
+        letter-spacing: 2px;
+        margin-bottom: 1vw;
+      }
+  
+      h2 {
+        font-family: 'Roboto-Light';
+        font-size: 4vw!important;
+        letter-spacing: 1px;
+      }
+    }
+
+    .arr-down {
+      width: 4vw;
+      height: 4vw;
+    }
+  }
+
+  // Sidebar
+
+  .side {
+    display: none !important;
+  }
+
+  .side-inner-mobile {
+    display: flex;
+  }
+
+  // Projects page
+
+  .projects-wrap {
+    padding: 25px 30px;
+    height: auto;
+
+    .row-1 {
+      flex-wrap: wrap;
+
+      .project {
+        margin: 1.5vh;
+        border-radius: 1vh;
+      }
+
+      .p1 {
+        width: 100%;
+        transform: translateX(500%);
+
+        &:hover {
+          width: 100%;
+        }
+      }
+
+      .p2 {
+        width: 100%;
+        transform: translateX(500%);
+
+        &::after {
+          display: none;
+        }
+
+        &::before {
+          display: none;
+        }
+
+        &:hover {
+          width: 100%;
+        }
+      }
+    }
+
+    .row-2 {
+      flex-wrap: wrap;
+
+      .project {
+        margin: 1.5vh;
+        border-radius: 1vh;
+      }
+
+      .p3 {
+        width: 100%;
+        transform: translateX(500%);
+
+        &::after {
+          display: none;
+        }
+
+        &:hover {
+          width: 100%;
+        }
+      }
+
+      .p4 {
+        width: 100%;
+        transform: translateX(500%);
+
+        &:hover {
+          width: 100%;
+        }
+      }
+
+      .p5 {
+        width: 100%;
+        transform: translateX(500%);
+
+        &:hover {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  // About page
+
+  .about-wrap {
+    background-color: #222338;
+    padding: 25px 42px;
+
+    &__f-block {
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+
+    &__title {
+      font-size: 8vw;
+    }
+
+    &__s-block {
+      padding-left: 0;
+      margin-bottom: 20px;
+    }
+
+    &__experience-title {
+      font-size: 4vw;
+      line-height: 6vw;
+    }
+
+    &__experience-subtitle {
+      font-size: 3vw;
+      line-height: 5vw;
+    }
+
+    &__c-companies {
+      width: 100%;
+      padding: 25px 25px;
+      border-radius: 1vh;
+    }
+
+    &__company {
+      flex-basis: 48%;
+      height: 100px;
+      border-radius: 1vh;
+
+      &--mb_1 {
+        margin-bottom: 0;
+
+        &-mobile {
+          margin-bottom: 1vh;
+          border-radius: 1vh;
+        }
+      }
+    }
+
+    &__t-block {
+      padding: 0;
+    }
+
+    &__c-team {
+      display: flex;
+      padding-left: 0;
+    }
+
+    &__team-title {
+      font-size: 4vw;
+    }
+
+    &__img {
+      width: 17vw;
+      height: 17vw;
+    }
+
+    &__c-designers {
+      flex-basis: 80%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 2vw 0;
+      border-radius: 1vh;
+    }
+
+    &__designer-name {
+      font-size: 2vw;
+    }
+
+    &__designer-position {
+      font-size: 2.1vw;
+    }
+
+    &__c-developers {
+      flex-basis: 100%;
+      margin: 2vw 0;
+      border-radius: 1vh;
+    }
+
+    &__developers-flex {
+      justify-content: space-around;
+    }
+
+    &__developer-name {
+      font-size: 2vw;
+    }
+
+    &__developer-position {
+      font-size: 2.1vw;
+    }
+    
+    &__c-managment {
+      flex-basis: 100%;
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2vw;
+      border-radius: 1vh;
+    }
+
+    &__managment {
+      margin: 20px 20px;
+    }
+
+    &__managment-name {
+      font-size: 2vw;
+    }
+
+    &__managment-position {
+      font-size: 2.1vw;
+    }
+
+    &__info-row_1 {
+      display: none;
+    }
+
+    &__info-row_2 {
+      display: none;
+    }
+  }
+
+  .description-mobile {
+    width: 100%;
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 15px;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+  }
+
+  // Price page
+
+  .price-wrap {
+    padding: 20px 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .col-1,
+    .col-2 {
+      width: 100%;
+      height: auto;
+    }
+
+    .col-1 {
+      padding-right: 0;
+      padding-left: 0;
+      margin-bottom: 2vh;
+
+      .placeholder {
+        height: 3vh;
+        border-radius: 1vh;
+        margin-bottom: 2vh;
+      }
+    }
+
+    .col-2 {
+      padding-left: 0;
+    }
+
+    .s2 {
+      margin-top: 0;
+      margin-bottom: 2vh;
+    }
+
+    .s3 {
+      margin-top: 0;
+    }
+
+    .service {
+      border-radius: 1vh;
+
+      h4 {
+        font-size: 3vw;
+      }
+
+      p {
+        font-size: 2.5vw;
+      }
+
+      .list-item {
+        border-radius: 1vh!important;
+        .item {
+          font-size: 1.5vh!important;
+        }
+      }
+    }
+  }
+
+  // Contact page
+
+  .contact-wrap {
+    padding: 20px 42px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .col-1 {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+      margin-bottom: 3vh;
+
+      h2 {
+        font-size: 7vw;
+        margin-bottom: 1vh;
+      }
+
+      h4 {
+        font-size: 3vw;
+        margin-bottom: 1.5vh;
+      }
+
+      .social-wrap {
+        padding: 2vh 1vw;
+        width: 100%;
+        margin-bottom: 2vh;
+        border-radius: 1vh;
+        justify-content: space-around;
+
+        .social-item {
+          margin: 2vw;
+          border-radius: 1vh;
+
+          .si {
+            height: 5vh;
+            width: 5vh;
+          }
+        }
+      }
+
+      .mp-wrap {
+        padding: 2vh 1vw;
+        border-radius: 1vh;
+
+        .mp-item {
+          padding: 5vw;
+          margin: 4vw;
+          border-radius: 1vh;
+
+          p {
+            font-size: 3vw;
+          }
+        }
+      }
+    }
+
+    .col-2 {
+      width: 100%;
+      padding-right: 0;
+      padding-left: 0;
+
+      .contact-form {
+        padding: 3vh 2.5vw;
+        width: 100%;
+        padding-bottom: 1.5vh;
+        border-radius: 1vh;
+
+        h4 {
+          text-align: center;
+          font-size: 3.3vw;
+          margin-bottom: 1.5vh;
+        }
+
+        .input-wrap {
+          border-radius: 1vh;
+
+          input {
+            padding: 2vh 4vw;
+            font-size: 2.3vw;
+            border-radius: 1vh;
+            margin-bottom: 1.5vh;
+          }
+
+          button {
+            margin-top: 1vh;
+            border-radius: 1vh;
+            font-size: 4vw;
+            padding: 1vh;
+          }
+
+          textarea {
+            border-radius: 1vh;
+            padding: 1.5vh 4vw;
+            font-size: 2.3vw;
+            margin-bottom: 1.5vh;
+          }
+        }
+      }
+    }
+  }
+}

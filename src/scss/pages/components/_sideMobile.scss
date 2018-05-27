@@ -1,0 +1,36 @@
+.side-inner-mobile {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 50px;
+    background-color: transparent;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //border: 1px solid red;
+    align-items: center;
+    //display: none;
+
+    &__dot-mobile {
+        display: block;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: .5s;
+        opacity: 0.2;
+
+        &--active {
+            z-index: 1;
+            background-color: $activeDot;
+            transform: scale(1.2);
+            opacity: 1;
+        }
+    }
+}

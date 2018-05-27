@@ -1,0 +1,251 @@
+.projects-wrap {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: #222338;
+  justify-content: center;
+  align-items: center;
+
+  .mobile-projects-desc {
+    font-size: 7vw;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Roboto-Bold';
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    margin-left: 2vh;
+  }
+
+  .row-1 {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    .project {
+      position: relative;
+      transition: .4s;
+      margin: 0.5vw;
+      background-color: #C25656;
+      border-radius: 0.4vw;
+      cursor: pointer;
+
+      &:hover {
+        -webkit-box-shadow: 6px 4px 56px 6px rgba(21, 21, 32, 0.75);
+        -moz-box-shadow: 6px 4px 56px 6px rgba(21, 21, 32, 0.75);
+        box-shadow: 6px 4px 56px 6px rgba(21, 21, 32, 0.75);
+      }
+
+      .content {
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        transition: all .5s;
+        border-radius: 0.7vw;
+
+        &:hover {
+          background-color: transparent;
+
+          .content-text {
+            visibility: visible;
+            transform: translateY(0%);
+          }
+        }
+
+        .content-text {
+          position: absolute;
+          transform: translateY(200%);
+          transition-duration: .3s;
+          bottom: 10%;
+          left: 5%;
+          width: 90%;
+          height: 30%;
+          background-color: #fff;
+          border-radius: 0.7vw;
+        }
+      }
+    }
+
+    .p1 {
+      will-change: transform;
+      width: 35%;
+      height: 35vh;
+      transition-timing-function: ease;
+      transition-duration: 1s;
+      transition-delay: 0s;
+      transition-property: all;
+      transform: translateX(-100vw);
+      background-image: url('../../assets/images/one.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+
+      &:hover {
+        transform: scale(1.02) !important;
+      }
+    }
+
+    .p2 {
+      will-change: transform;
+      position: relative;
+      width: 20%;
+      height: 25vh;
+      transition-timing-function: ease;
+      transition-duration: 1s;
+      transition-delay: 0.1s;
+      transition-property: all;
+      transform: translateY(-100vh);
+      background-image: url('../../assets/images/two.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top right;
+
+      &::after {
+        content: '';
+        position: absolute;
+        background-color: #A24C50;
+        width: 100%;
+        height: 2vw;
+        top: -3vw;
+        pointer-events: none;
+        border-radius: 0.4vw;
+      }
+
+      &:hover {
+        transform: scale(1.02) !important;
+      }
+    }
+  }
+
+  .row-2 {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+    .project {
+      transition: .4s;
+      margin: 0.5vw;
+      background-color: #C25656;
+      position: relative;
+      cursor: pointer;
+      border-radius: 0.4vw;
+
+      &:hover {
+        -webkit-box-shadow: 6px 4px 56px 6px rgba(21, 21, 32, 0.75);
+        -moz-box-shadow: 6px 4px 56px 6px rgba(21, 21, 32, 0.75);
+        box-shadow: 4px 2px 20px 6px rgba(21, 21, 32, 0.75);
+      }
+
+      .content {
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        transition: all .5s;
+        border-radius: 0.7vw;
+
+        &:hover {
+          background-color: transparent;
+
+          .content-text {
+            visibility: visible;
+            transform: translateY(0%);
+          }
+        }
+
+        .content-text {
+          position: absolute;
+          transform: translateY(200%);
+          transition-duration: .3s;
+          bottom: 7%;
+          left: 5%;
+          width: 90%;
+          height: 30%;
+          background-color: #fff;
+          border-radius: 0.7vw;
+        }
+      }
+    }
+
+    .p3 {
+      will-change: transform;
+      position: relative;
+      width: 15%;
+      height: 35vh;
+      transition-timing-function: ease;
+      transition-duration: 1s;
+      transition-delay: 0.2s;
+      transition-property: all;
+      transform: translateX(-100vw);
+      background-image: url('../../assets/images/five.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+
+      &::after {
+        content: '';
+        position: absolute;
+        width: 80%;
+        height: 2vw;
+        background-color: #A24C50;
+        bottom: -3vw;
+        right: 0;
+        pointer-events: none;
+        border-radius: 0.4vw;
+      }
+
+      &:hover {
+        transform: scale(1.02) !important;
+      }
+    }
+
+    .p4 {
+      will-change: transform;
+      width: 20%;
+      height: 45vh;
+      transition-timing-function: ease;
+      transition-duration: 1s;
+      transition-delay: 0.3s;
+      transition-property: all;
+      transform: translateY(100vh);
+      background-image: url('../../assets/images/four.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+      &:hover {
+        transform: scale(1.02) !important;
+      }
+    }
+
+    .p5 {
+      will-change: transform;
+      width: 25%;
+      height: 40vh;
+      transition-timing-function: ease;
+      transition-duration: 1s;
+      transition-delay: 0.4s;
+      transition-property: all;
+      transform: translateX(100vw);
+      background-image: url('../../assets/images/three.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+
+      &:hover {
+        transform: scale(1.02) !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,208 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    meta(name="theme-color" content="#F71033")
+    title UNIQ Web Studio
+  body
+    div.preloader
+      div.preloader-logo
+        include ../assets/images/Uniq.svg
+    nav.side
+      div.side-inner
+        span.line
+        span.dott
+        div.section-detail
+          h3 Section description
+        .point-wrap(id = "first")
+          a.point.scroll.ptr1
+        .point-wrap
+          a.point.scroll.ptr2
+        .point-wrap
+          a.point.scoll.ptr3
+        .point-wrap
+          a.point.scroll.ptr4
+        .point-wrap
+          a.point.scroll.ptr5(href="#")
+      div.languages
+        a RU
+        a EN
+    nav.side-inner-mobile#mobile-nav
+      a.side-inner-mobile__dot-mobile.side-inner-mobile__dot-mobile--active#active-dot(data-screen="1")
+      a.side-inner-mobile__dot-mobile(data-screen="2")
+      a.side-inner-mobile__dot-mobile(data-screen="3")
+      a.side-inner-mobile__dot-mobile(data-screen="4")
+      a.side-inner-mobile__dot-mobile(data-screen="5")
+    div.home-wrap(id="home")
+      div.layer-2
+      div.layer-3
+      div.home
+        h1 Uniq
+        h2
+          | Web studio &
+          br
+          | outsorcing company
+      span.arr-down
+    div.projects-wrap(id="projects")
+      h3.mobile-projects-desc Our projects
+      div.row-1
+        div.project.p1
+          div.content
+            div.content-text
+        div.project.p2
+          div.content
+            div.content-text
+      div.row-2
+        div.project.p3
+          div.content
+            div.content-text
+        div.project.p4
+          div.content
+            div.content-text
+        div.project.p5
+          div.content
+            div.content-text
+    div.about-wrap(id="about")
+      div.about-wrap__f-block
+        h2.about-wrap__title
+          span.letterAnimate M
+          span.letterAnimate e
+          span.letterAnimate e
+          span.letterAnimate t
+          br  
+          | the team
+      div.about-wrap__s-block
+        h2.about-wrap__experience-title In over 5 years
+        h4.about-wrap__experience-subtitle We have experience working with
+        ul.about-wrap__c-companies
+          li.about-wrap__company.about-wrap__company--mb_1.about-wrap__company--mb_1-mobile
+          li.about-wrap__company.about-wrap__company--mb_1.about-wrap__company--mb_1-mobile
+          li.about-wrap__company.about-wrap__company--mb_1.about-wrap__company--mb_1-mobile
+          li.about-wrap__company.about-wrap__company--mb_1-mobile
+          li.about-wrap__company
+          li.about-wrap__company
+      div.about-wrap__t-block
+        h2.about-wrap__team-title Our team
+        div.about-wrap__c-team
+          h4.description-mobile Designers
+          div.about-wrap__c-designers
+            div.about-wrap__info-row_1
+              span.about-wrap__designers-text Designers
+              span.about-wrap__amp-text &
+              span.about-wrap__developers-text Developers
+            div.about-wrap__designer.about-wrap__designer--mb_3
+              img.about-wrap__img
+              h4.about-wrap__designer-name Name Surname
+              h5.about-wrap__designer-position Position
+            div.about-wrap__designer
+              img.about-wrap__img
+              h4.about-wrap__designer-name Name Surname
+              h5.about-wrap__designer-position Position
+          h4.description-mobile Developers
+          div.about-wrap__c-developers
+            div.about-wrap__developers-flex
+              div.about-wrap__developer.about-wrap__developer--mb_3
+                img.about-wrap__img
+                h4.about-wrap__developer-name Name Surname
+                h5.about-wrap__developer-position Position
+              div.about-wrap__developer.about-wrap__developer--mb_3
+                img.about-wrap__img
+                h4.about-wrap__developer-name Name Surname
+                h5.about-wrap__developer-position Position
+              div.about-wrap__developer.about-wrap__developer--mb_3
+                img.about-wrap__img
+                h4.about-wrap__developer-name Name Surname
+                h5.about-wrap__developer-position Position
+              div.about-wrap__developer
+                img.about-wrap__img
+                h4.about-wrap__developer-name Name Surname
+                h5.about-wrap__developer-position Position
+              div.about-wrap__developer
+                img.about-wrap__img
+                h4.about-wrap__developer-name Name Surname
+                h5.about-wrap__developer-position Position
+              div.about-wrap__developer
+                img.about-wrap__img
+                h4.about-wrap__developer-name Name Surname
+                h5.about-wrap__developer-position Position
+          h4.description-mobile Managment
+          div.about-wrap__c-managment
+            div.about-wrap__managment-flex
+              div.about-wrap__info-row_2
+                span.about-wrap__managment-text Managment
+              div.about-wrap__managment
+                img.about-wrap__img
+                h4.about-wrap__managment-name Name Surname
+                h5.about-wrap__managment-position Position
+              div.about-wrap__managment
+                img.about-wrap__img
+                h4.about-wrap__managment-name Name Surname
+                h5.about-wrap__managment-position Position
+              div.about-wrap__managment
+                img.about-wrap__img
+                h4.about-wrap__managment-name Name Surname
+                h5.about-wrap__managment-position Position
+    div.price-wrap(id="price")
+      div.col-1
+        div.placeholder
+        div.service-wrap.s1
+          div.service
+            h4 Corporate websites
+            p From 2000$
+            ul.list-wrap
+              li.list-item
+                p.item 10-20 individual pages
+              li.list-item
+                p.item Showcase your company and your products
+              li.list-item
+                p.item Adaptive design for all devices
+          div.service-quick-action.sqa1
+      div.col-2
+        div.service-wrap.s2
+          div.service
+            h4 Landing page
+            p From 800$
+            ul.list-wrap
+              li.list-item
+                p.item 10-20 individual pages
+          div.service-quick-action.sqa1
+        div.service-wrap.s3
+          div.service
+            h4 Wow sites
+            p From 4000$
+            ul.list-wrap
+              li.list-item
+                p.item Award winning interactive art that is beyond reality
+          div.service-quick-action.sqa1
+    div.contact-wrap(id="contact")
+      div.col-1
+        h2 Get in touch
+        h4 Join us in social media
+        div.social-wrap
+          div.social-item
+            div.si.si1
+          div.social-item
+            div.si.si2
+          div.social-item
+            div.si.si3
+        div.mp-wrap
+          div.mp-item
+            p uniq@gmail.com
+            span.mail
+          div.mp-item
+            p +38(067)-111-22-33
+            span.phone
+      div.col-2
+        div.contact-form
+          h4 Fill the form and we'll contact you in 24 hours
+          div.input-wrap
+            input(type="text" placeholder="Full name")
+            input(type="email" placeholder="Email")
+            input(type="text" placeholder="Subject")
+            textarea(type="text", cols="30", rows="10" placeholder="Message")
+            button Send
+
+    //- script(src='https://code.jquery.com/jquery-3.3.1.min.js', integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=', crossorigin='anonymous')
+    //- script(src='../pages/scrol.min.js')

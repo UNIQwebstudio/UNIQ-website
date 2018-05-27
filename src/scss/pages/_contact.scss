@@ -1,0 +1,176 @@
+.contact-wrap {
+    background-color: $primaryColor;
+    padding-left: 2vw;
+    padding-right: 20vw;
+    padding-bottom: 3vh;
+    display: flex;
+
+    .col-1 {
+        padding-left: 150px;
+        padding-right: 3vw;
+        display: flex;
+        flex-direction: column;
+        width: 45vw;
+
+        h2 {
+            color: #C25656;
+            font-family: 'Roboto-Bold';
+            font-size: 4vw;
+            margin-bottom: 1vw;
+        }
+
+        h4 {
+            color: #fff;
+            font-family: 'Roboto-Bold';
+            font-size: 2vw;
+            margin-bottom: 1.5vw;
+        }
+
+        .social-wrap {
+            background-color: #1D1E2E;
+            padding: 1.2vw;
+            border-radius: 0.4vw;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1vw;
+
+            .social-item {
+                background-color: #171724;
+                padding: 0.8vw;
+                margin: 0.5vw;
+                border-radius: 0.4vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+
+                .si {
+                    background-color: #ffffff;
+                    width: 3vw;
+                    height: 3vw;
+                    border-radius: 50%;
+                    background-position: center center;
+                    background-size: 60%;
+                    background-repeat: no-repeat; 
+                }
+
+                .si1 {
+                    background-image: url('../../assets/images/twitter.svg');
+                }
+
+                .si2 {
+                    background-image: url('../../assets/images/instagram.svg');
+                }
+
+                .si3 {
+                    background-image: url('../../assets/images/facebook.svg');
+                }
+            }
+        }
+
+        .mp-wrap {
+            background-color: #1D1E2E;
+            padding: 1.6vw;
+            border-radius: 0.4vw;
+
+            .mp-item {
+                background-color: #171724;
+                padding: 1.5vw 1.5vw;
+                border-radius: 0.4vw;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                p {
+                    font-family: "Roboto-Regular";
+                    display: inline-block;
+                    font-size: 1vw;
+                }
+
+                .mail {
+                    background-image: url("../../assets/images/envelope.svg");
+                    width: 30px;
+                    height: 30px;
+                }
+
+                .phone {
+                    background-image: url("../../assets/images/instagram.svg");
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+            .mp-item:nth-child(1) {
+                margin-bottom: 1.5vw;
+            }
+        }
+    }
+
+    .col-2 {
+        padding-left: 3vw;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 45vw;
+
+        .contact-form {
+            background-color: #A24C50;
+            padding: 2vw 2vw;
+            border-radius: 0.4vw;
+
+            h4 {
+                font-family: 'Roboto-Bold';
+                color: #793235;
+                font-size: 1.5vw;
+                margin-bottom: 1vw;
+            }
+
+            .input-wrap {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                input {
+                    font-family: 'Roboto-Regular';
+                    border-radius: 0.4vw;
+                    outline: none;
+                    border: 0;
+                    padding: 1.2vw 1.2vw;
+                    font-size: 0.9vw;
+                    margin: 1vw 0;
+                    color: #000000;
+                    background-color: #EAEAEA;
+                }
+
+                textarea {
+                    font-family: 'Roboto-Regular';
+                    border-radius: 0.4vw;
+                    outline: none;
+                    border: 0;
+                    padding: 1.2vw 1.2vw;
+                    font-size: 0.9vw;
+                    margin: 1vw 0;
+                    color: #000000;
+                    height: 10vw;
+                    resize: none;
+                    background-color: #EAEAEA;
+                }
+
+                button {
+                    text-transform: uppercase;
+                    margin: 1vw 0;
+                    font-family: 'Roboto-Bold';
+                    background-color: #83383C;
+                    padding: 1.2vw 1.2vw;
+                    outline: none;
+                    border: 0;
+                    border-radius: 0.4vw;
+                    font-size: 1.5vw;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
