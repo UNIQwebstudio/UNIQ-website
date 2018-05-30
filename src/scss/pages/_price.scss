@@ -36,7 +36,7 @@
     .service-wrap {
         position: relative;
         overflow: hidden;
-        border-radius: 0.4vw;
+        // border-radius: 0.4vw;
 
         &:hover {
             .service {
@@ -55,6 +55,7 @@
             padding-left: 2.4vh;
             border-radius: 0.4vw;
             transition: .7s;
+            transition-timing-function: ease-out;
             will-change: transform;
         }
 
@@ -67,8 +68,7 @@
             transition: .7s;
             transition-timing-function: ease-out;
             transform: translateY(110%);
-            border-radius: 0.4vw;
-            background-color: #9B3E47;
+            background-color: #fff;
             will-change: transform;
             display: flex;
             align-items: center;
