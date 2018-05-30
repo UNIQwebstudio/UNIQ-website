@@ -174,3 +174,57 @@
         }
     }
 }
+
+.footer {
+    background-color: #222338;
+    padding-left: 2vw;
+    padding-bottom: 15px;
+
+    .inner {
+        padding-left: 150px;
+        font-size: 1vw;
+    }
+}
+
+@media only screen and (max-width:1216px) {
+   .footer {
+    //background-color: #222338;
+    padding-left: 62px;
+    //padding-bottom: 15px;
+
+        .inner {
+            padding-left: 0;
+        }
+    } 
+}
+
+@media only screen and (max-width:1094px) {
+   .footer {
+    //background-color: #222338;
+    padding-left: 62px;
+    //padding-bottom: 15px;
+
+        .inner {
+            padding-left: 0;
+        }
+    } 
+}
+
+@media only screen and (max-width:764px) {
+   .footer {
+    padding-left: 42px; 
+
+    .inner {
+        font-size: 2vw;
+    }
+   }
+}
+
+.section-detail {
+    opacity: 0;
+    transition: 1s;
+}
+
+.side-inner:hover .section-detail {
+    opacity: 1;
+}
