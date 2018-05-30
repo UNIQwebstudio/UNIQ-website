@@ -90,16 +90,18 @@
 
                 .mail {
                     background-image: url("../../assets/images/gm.svg");
-                    width: 30px;
-                    height: 30px;
+                    width: 2vw;
+                    height: 2vw;
+                    //height: 30px;
                 }
 
                 .phone {
                     background-image: url("../../assets/images/phn.svg");
                     background-repeat: no-repeat;
                     background-position: center center;
-                    width: 30px;
-                    height: 30px;
+                    width: 2vw;
+                    height: 2vw;
+                    //height: 30px;
                 }
             }
             .mp-item:nth-child(1) {

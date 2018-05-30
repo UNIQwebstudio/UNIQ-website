@@ -299,6 +299,41 @@ document.querySelector('.arr-down').addEventListener("click", function() {
 /*
 ================================= Mobile sidebar ========================================
 */
+/*
+let dots = document.getElementsByClassName("side-inner-mobile__dot-mobile");
+
+
+dots[0].addEventListener("click", function () {
+  animatedScroll('.home-wrap');
+  console.log("Clicked to home-wrap");
+  
+})
+dots[1].addEventListener("click", function () {
+  animatedScroll('.projects-wrap');
+  console.log("Clicked to projects-wrap");
+  
+})
+dots[2].addEventListener("click", function () {
+  animatedScroll('.about-wrap');
+  console.log("Clicked to about-wrap");
+  
+})
+dots[3].addEventListener("click", function () {
+  animatedScroll('.price-wrap');
+  console.log("Clicked to price-wrap");
+  
+})
+dots[4].addEventListener("click", function () {
+  animatedScroll('.contact-wrap');
+  console.log("Clicked to contact-wrap");
+  
+})
+
+document.querySelector('.arr-down').addEventListener("click", function () {
+  animatedScroll('.home-wrap');
+})
+*/
+//=====================================================
 
 
 window.$ = document.querySelector.bind(document);

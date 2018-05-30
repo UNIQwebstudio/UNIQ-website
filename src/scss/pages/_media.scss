@@ -157,6 +157,10 @@
     }
   }
 
+  .mp-item {
+    padding: 10px 1.5vw !important;
+  }
+
   // About page
 
   .about-wrap {
@@ -304,9 +308,9 @@
     .col-1 {
       padding-left: 0;
 
-      .placeholder {
+      /*.placeholder {
         border-radius: 1vh;
-      }
+      }*/
     }
 
     .list-item {
@@ -653,7 +657,7 @@
 
       .placeholder {
         height: 3vh;
-        border-radius: 1vh;
+        /*border-radius: 1vh;*/
         margin-bottom: 2vh;
       }
     }
@@ -738,9 +742,19 @@
         border-radius: 1vh;
 
         .mp-item {
-          padding: 5vw;
+          padding: 3.5vw;
           margin: 4vw;
           border-radius: 1vh;
+
+          .mail {
+            width: 4vw;
+            height: 4vw;
+          }
+
+          .phone {
+            width: 4vw;
+            height: 4vw;
+          }
 
           p {
             font-size: 3vw;
