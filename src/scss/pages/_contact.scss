@@ -55,15 +55,15 @@
                 }
 
                 .si1 {
-                    background-image: url('../../assets/images/tw.svg');
+                    background-image: url('../../assets/images/twitter.svg');
                 }
 
                 .si2 {
-                    background-image: url('../../assets/images/nst.svg');
+                    background-image: url('../../assets/images/instagram.svg');
                 }
 
                 .si3 {
-                    background-image: url('../../assets/images/fb.svg');
+                    background-image: url('../../assets/images/facebook.svg');
                 }
             }
         }
@@ -75,7 +75,7 @@
 
             .mp-item {
                 background-color: #171724;
-                padding: 1.5vw 1.5vw;
+                padding: 1.1vw 1.5vw;
                 border-radius: 0.4vw;
                 position: relative;
                 display: flex;
@@ -89,19 +89,18 @@
                 }
 
                 .mail {
-                    background-image: url("../../assets/images/gm.svg");
-                    width: 2vw;
-                    height: 2vw;
-                    //height: 30px;
+                    background-image: url("../../assets/images/envelope.svg");
+                    width: 1.6vw;
+                    height: 1.6vw;
+                    background-size: cover;
                 }
 
                 .phone {
-                    background-image: url("../../assets/images/phn.svg");
+                    background-image: url("../../assets/images/telephone.svg");
                     background-repeat: no-repeat;
-                    background-position: center center;
-                    width: 2vw;
-                    height: 2vw;
-                    //height: 30px;
+                    background-size: cover;
+                    width: 1.6vw;
+                    height: 1.6vw;
                 }
             }
             .mp-item:nth-child(1) {
@@ -181,6 +180,7 @@
     background-color: #222338;
     padding-left: 2vw;
     padding-bottom: 15px;
+    font-family: "Roboto-Light";
 
     .inner {
         padding-left: 150px;

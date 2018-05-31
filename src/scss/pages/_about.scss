@@ -67,6 +67,32 @@
     flex-basis: 32%;
     height: 7.5vw;
     border-radius: 0.4vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+  &.ac1 {
+    background-image: url("../../assets/images/datalingvo.png");
+  }
+
+  &.ac2 {
+    background-image: url("../../assets/images/rrr.png");
+  }
+
+  &.ac3 {
+    background-image: url("../../assets/images/payever.png");
+  } 
+
+  &.ac4 {
+    background-image: url("../../assets/images/appreal.png");
+  }
+
+  &.ac5 {
+    background-image: url("../../assets/images/bincap.png");
+  }
+
+  &.ac6 {
+    background-image: url("../../assets/images/unitybars.png");
+  }
 
     &--mb_1 {
       margin-bottom: 1vw;
@@ -75,6 +101,7 @@
 
   &__t-block {
     padding: 0 0 0 100px;
+    display: none;
   }
 
   &__team-title {
