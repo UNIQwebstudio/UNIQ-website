@@ -371,6 +371,17 @@
   }
 }
 
+/*position: relative;
+
+        &::before {
+            content: "Pricing";
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #fff;
+            font-size: 40px;
+        }*/
+
 /*
 ================================= The Smallest Devices ================================
 */
@@ -805,6 +816,26 @@
           }
         }
       }
+    }
+  }
+  .price-wrap {
+
+    .col-1 {
+      position: relative;
+
+      &::before {
+          content: "Pricing";
+          position: absolute;
+          //top: -60px;
+          top: -8.5vw;
+          left: 0;
+          color: #fff;
+          font-size: 7vw;
+          font-family: "Roboto-Bold", sans-serif;
+          text-transform: uppercase;
+          letter-spacing: 5px;
+          line-height: 8vw;
+      }   
     }
   }
 }

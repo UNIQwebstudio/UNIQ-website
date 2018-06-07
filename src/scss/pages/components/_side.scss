@@ -168,3 +168,25 @@
     }
   }
 }
+/*
+.point-wrap {
+  position: relative;
+
+    &::before {
+      content: "Hello";
+      position: absolute;
+      top: 0;
+      left: -70px;
+      font-family: 'MyriadPro-Reg';
+      font-weight: 400;
+      font-size: 20px;
+      z-index: -999;
+      opacity: 1;
+      transition: .5s;
+    }
+
+    &:hover &::before {
+      opacity: 0;
+    }
+}
+*/
